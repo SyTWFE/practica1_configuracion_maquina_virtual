@@ -112,3 +112,17 @@ Para la actualización automatica del navegador, cuando se realicen cambios en e
 ```
 npm install --save-dev browser-sync
 ```
+
+Ejecutando la tarea 
+
+```
+gulp serve
+```
+
+Obtenemos la IP y vemos el estado actual de la página
+
+![browsersync1](capturasPantalla/browsersync1.png)
+
+Y una vez actualizado el archivo HTML, se actualiza automáticamente el navegador
+
+![browsersync2](capturasPantalla/browsersync2.png)
